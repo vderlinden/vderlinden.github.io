@@ -1,0 +1,100 @@
+/* Algemeen */
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  line-height: 1.2em;
+  margin: 2em;
+}
+
+/* Elementen */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header,
+section {
+  margin: 1em;
+}
+
+article,
+img, table {
+  border: 1px solid #f5f5f5;
+  border-radius: 4px;
+}
+
+article {
+  column-count: 3;
+  padding: 16px;
+}
+
+article p {
+  margin: 0;
+}
+
+img {
+  margin: 8px;
+  max-width: 300px;
+}
+
+table {
+    padding: 16px;
+    width: 100%;
+}
+
+table th {
+    text-align: left;
+}
+
+table tr:hover {
+    background-color: #f5f5f5;
+}
+
+ul,
+li {
+  padding-bottom: 8px;
+}
+
+li p {
+  margin: 8px;
+}
+
+li p:first-child {
+  font-weight: 500;
+}
+
+/* Typografie */
+
+h1,
+h2 {
+  font-family: Karla, Roboto, sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+/* Opdrachten */
+.opdracht-16 h1 {
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.hex-16 {
+  background-color: #f5f5f5;
+  color: #212121;
+}
+
+.rgb-16 {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(0, 0, 0, 0.87);
+}
