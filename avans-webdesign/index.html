@@ -17,31 +17,49 @@
 </head>
 
 <body>
-    <header id="header">
-        <h1>Paul van der Linden</h1>
-        <h2>2209288 - AVD Front-end design & development - 220FDD-DI1 – Klas 1, Group 2</h2>
-        <a href="2ndpage.html">Go to a 2nd pagina</a> -
-        <a href="https://www.youtube.com/watch?v=xm3YgoEiEDc" target="_blank">10 Hours Rick Astley</a>
-    </header>
+    <section class="section-fw dark">
+        <header id="header">
+            <h1>Paul van der Linden</h1>
+            <h2>2209288 - AVD Front-end design & development - 220FDD-DI1 – Klas 1, Group 2</h2>
+        </header>
+    </section>
+    <section class="section-fw dark sticky">
+        <nav>
+            <ul>
+                <li><a href="#week1">Week 1</a></li>
+                <li><a href="#week2">Week 2</a></li>
+            </ul>
+        </nav>
+    </section>
 
-    <!-- Opdracht 6 - 2 alinea's (<p>) -->
-    <article>
-        <p>Cras in ornare sapien. Praesent tincidunt justo at libero euismod
-            ultrices. Donec justo ligula, condimentum in augue nec, ullamcorper
-            bibendum est. Morbi tristique volutpat massa, eu fringilla lorem semper
-            eu. Suspendisse vulputate massa vel nulla tempus, quis accumsan tellus
-            mattis. Curabitur auctor a nulla vitae dictum. Class aptent taciti
-            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            Suspendisse potenti. Praesent sit amet fermentum sapien. Curabitur euismod
-            diam nec felis volutpat vulputate. Sed ut facilisis risus, quis
-            pellentesque nunc.</p>
-        <p>Proin vitae convallis odio, quis rhoncus lorem. Nullam in urna at ante
-            tempus malesuada. Vestibulum eget tristique urna. Ut sit amet faucibus
-            massa, eu posuere nisl. Curabitur lacinia mi sed massa viverra, non
-            tincidunt sem mattis. Mauris nec nulla magna. Proin massa urna, elementum
-            quis suscipit et, ultrices in ligula. Morbi sagittis lorem nec eros
-            congue, a sollicitudin ipsum interdum.</p>
-    </article>
+
+    <section class="section-fw light sticky-header">
+        <h1><span id="week1">&nbsp;</span>Week 1</h1>
+    </section>
+    <section>
+        <section>
+            <a href="2ndpage.html">Go to a 2nd pagina</a> -
+            <a href="https://www.youtube.com/watch?v=xm3YgoEiEDc" target="_blank">10 Hours Rick Astley</a>
+        </section>
+        <!-- Opdracht 6 - 2 alinea's (<p>) -->
+        <article>
+            <p>Cras in ornare sapien. Praesent tincidunt justo at libero euismod
+                ultrices. Donec justo ligula, condimentum in augue nec, ullamcorper
+                bibendum est. Morbi tristique volutpat massa, eu fringilla lorem semper
+                eu. Suspendisse vulputate massa vel nulla tempus, quis accumsan tellus
+                mattis. Curabitur auctor a nulla vitae dictum. Class aptent taciti
+                sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                Suspendisse potenti. Praesent sit amet fermentum sapien. Curabitur euismod
+                diam nec felis volutpat vulputate. Sed ut facilisis risus, quis
+                pellentesque nunc.</p>
+            <p>Proin vitae convallis odio, quis rhoncus lorem. Nullam in urna at ante
+                tempus malesuada. Vestibulum eget tristique urna. Ut sit amet faucibus
+                massa, eu posuere nisl. Curabitur lacinia mi sed massa viverra, non
+                tincidunt sem mattis. Mauris nec nulla magna. Proin massa urna, elementum
+                quis suscipit et, ultrices in ligula. Morbi sagittis lorem nec eros
+                congue, a sollicitudin ipsum interdum.</p>
+        </article>
+    </section>
 
     <!-- Opdracht 7 - 16 - ol -->
     <section>
@@ -170,61 +188,77 @@
     </section>
 
     <!-- Opdracht 18 - table -->
-    <table>
-        <tr>
-            <th>Naam</th>
-            <th>Maker</th>
-            <th>Released</th>
-            <th>Version</th>
-            <th>Link</th>
-        </tr>
-        <tr>
-            <td>Chrome</td>
-            <td>Google</td>
-            <td>2008</td>
-            <td>105.0.5195.102</td>
-            <td>
-                <a href="https://www.google.com/chrome/" target="_blank">Download Chrome</a>
-            </td>
-        </tr>
-        <tr>
-            <td>Safari</td>
-            <td>Apple</td>
-            <td>2003</td>
-            <td>15.6</td>
-            <td>
-                <a href="https://support.apple.com/downloads/safari" target="_blank">Download Safari</a>
-            </td>
-        </tr>
-        <tr>
-            <td>Firefox</td>
-            <td>Mozilla Foundation</td>
-            <td>2002</td>
-            <td>104.0.1</td>
-            <td>
-                <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Download Firefox</a>
-            </td>
-        </tr>
-        <tr>
-            <td>Brave</td>
-            <td>Brave Software</td>
-            <td>2019</td>
-            <td>1.42.97</td>
-            <td>
-                <a href="https://brave.com/download/" target="_blank">Download Brave</a>
-            </td>
-        </tr>
-        <tr>
-            <td>Edge</td>
-            <td>Microsoft</td>
-            <td>2015</td>
-            <td>105.0.1298.0</td>
-            <td>
-                <a href="https://www.microsoft.com/en-us/edge" target="_blank">Download Edge</a>
-            </td>
-        </tr>
-    </table>
+    <section>
+        <table>
+            <tr>
+                <th>Naam</th>
+                <th>Maker</th>
+                <th>Released</th>
+                <th>Version</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>Chrome</td>
+                <td>Google</td>
+                <td>2008</td>
+                <td>105.0.5195.102</td>
+                <td>
+                    <a href="https://www.google.com/chrome/" target="_blank">Download Chrome</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Safari</td>
+                <td>Apple</td>
+                <td>2003</td>
+                <td>15.6</td>
+                <td>
+                    <a href="https://support.apple.com/downloads/safari" target="_blank">Download Safari</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Firefox</td>
+                <td>Mozilla Foundation</td>
+                <td>2002</td>
+                <td>104.0.1</td>
+                <td>
+                    <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Download Firefox</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Brave</td>
+                <td>Brave Software</td>
+                <td>2019</td>
+                <td>1.42.97</td>
+                <td>
+                    <a href="https://brave.com/download/" target="_blank">Download Brave</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Edge</td>
+                <td>Microsoft</td>
+                <td>2015</td>
+                <td>105.0.1298.0</td>
+                <td>
+                    <a href="https://www.microsoft.com/en-us/edge" target="_blank">Download Edge</a>
+                </td>
+            </tr>
+        </table>
+    </section>
 
+    <hr>
+
+    <section class="section-fw light">
+        <h1><span id="week2">&nbsp;</span>Week 2</h1>
+    </section>
+    <section>
+        <ol start="7">
+            <li>De headings gebruikt in opdracht 16 maken gebruik van een inline-style, welke een hogere waarde heeft
+                dan de huidige stijl uit het css blad.</li>
+            <li>Er is bij deze headings geen gebruik gemaakt van een overschrijvende inline-style. </li>
+            <li>RGB, HEX, HSL (en nog opacity varianten)</li>
+        </ol>
+    </section>
+    <p style="height: 1200px;">a</p>
 </body>
 
 </html>
