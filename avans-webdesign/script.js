@@ -33,19 +33,29 @@ function changeParagraphFont() {
   }
 }
 
-function rotateImage(degree){
-let element = document.getElementById('rotateImage');
-element.style.transform = 'rotate(' + degree + 'deg)'
+function rotateImage(degree) {
+  let element = document.getElementById('rotateImage');
+  element.style.transform = 'rotate(' + degree + 'deg)';
 }
 
-function clacVolume(){
-    let length = document.getElementById('l').value;
-    let width = document.getElementById('b').value;
-    let height = document.getElementById('h').value;
+function rotateImageAuto() {
+  let element = document.getElementById('rotateImage');
 
-    let volume = length * width * height;
+  if (element.style.transform === 'rotate(180deg)') {
+    rotateImage(0);
+  } else {
+    rotateImage(180);
+  }
+}
 
-    element = document.getElementById('sum');
-    element.style.color = 'red';
-    element.innerHTML = volume;
+function clacVolume() {
+  let length = document.getElementById('l').value;
+  let width = document.getElementById('b').value;
+  let height = document.getElementById('h').value;
+
+  let volume = length * width * height;
+
+  element = document.getElementById('sum');
+  element.style.color = 'red';
+  element.innerHTML = volume;
 }
