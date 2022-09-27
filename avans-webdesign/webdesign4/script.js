@@ -36,8 +36,8 @@ function createHeadingsBlue() {
 
 function createRedHeadingsGreen() {
   let elements = document.getElementsByClassName('redtext'); // Get redElements h1 elements
-  console.log(elements.length);
-  let i;
+
+  let i = 0;
 
   while (i < elements.length) {
     elements[i].style.color = 'green';
