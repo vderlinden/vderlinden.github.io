@@ -1,3 +1,5 @@
+// Opdracht 3
+
 function numberOfRedElements() {
   const elements = document.getElementsByClassName('redtext').length; // Count all red elements by ClassName
   console.log(elements + ' rode elementen gevonden.'); // Check result in console
@@ -6,6 +8,29 @@ function numberOfRedElements() {
   showCount.style.color = 'red'; // Change redElements h1 element to red
   showCount.innerHTML = elements + ' red elements'; // Print the total amount in redElements h1 element
 }
+
+function calcRedElements() {
+  const elements = document.getElementsByTagName('h1');
+  console.log(elements.length + ' h1 elements gevonden');
+
+  count = 0;
+
+  for (i = 1; i < elements.length; i++) {
+    const style = getComputedStyle(elements[i]);
+    let fontColor = style.color;
+
+    if (fontColor === 'rgb(171, 43, 52)') {
+      count++;
+    }
+  }
+
+  console.log(count + ' rode h1 elementen gevonden');
+  showCount = document.getElementById('redElements2'); // Get redElements p element
+  showCount.style.color = 'red'; // Change redElements h1 element to red
+  showCount.innerHTML = count + ' red elements with css style found'; // Print the total amount in redElements h1 element
+}
+
+// Opdracht 4
 
 function createHeadingsBlue() {
   let elements = document.getElementsByTagName('h1'); // Select all h1 elements by TagName
@@ -33,6 +58,8 @@ function createHeadingsBlue() {
     }
   }
 }
+
+// Opdracht 5
 
 function createRedHeadingsGreen() {
   let elements = document.getElementsByClassName('redtext'); // Get redElements h1 elements
