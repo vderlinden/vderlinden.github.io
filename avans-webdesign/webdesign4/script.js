@@ -40,7 +40,7 @@ function createRedHeadingsGreen() {
   let i = 0;
 
   while (i < elements.length) {
-    elements[i].style.color = 'green';
+    elements[i].style.color = 'green'; // Set current color to green
     i++;
   }
 }

@@ -1,0 +1,21 @@
+/* Bootstrap overrights  */
+.border,
+.carousel-inner {
+    border-radius: 4px;
+}
+
+.btn-primary {
+  border-color: black;
+  background-color: black;
+}
+
+.page-link {
+    color: black;
+}
+img {
+    width: 100%;
+}
+
+code {
+    color: #AB2B34;
+}
