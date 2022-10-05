@@ -1,0 +1,60 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="Author" content="Kenneth Rozendaal">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Simpele pagina met een formulier">
+
+	<title>Simple page</title>
+
+	<link rel="stylesheet" href="style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+	<header>
+
+	</header>
+
+	<main>
+		<div class="container">
+			<form method="post" action="#">
+				<label for="firstname">Voornaam</label>
+				<input type="text" name="firstname" id="firstname" placeholder="Voornaam" value="Paul" />
+				<div class="clearfix"></div>
+
+				<label for="lastname">Achternaam</label>
+				<input type="text" name="lastname" id="lastname" placeholder="Achternaam" value="van der Linden" />
+				<div class="clearfix"></div>
+
+				<label for="email1">Email</label>
+				<input type="email" name="email1" id="email1" placeholder="Email" value="aap1@aap.nl" />
+				<div class="clearfix"></div>
+
+				<label for="email2">Email</label>
+				<input type="text" name="email2" id="email2" placeholder="Email" value="aap2@aap.nl" />
+				<div class="clearfix"></div>
+
+				<input type="submit" value="Verstuur!" />
+				<span class="material-symbols-outlined tooltip" onclick="showHelp()">help
+					<span class="tooltiptext" id="showTooltip">Ik snap het niet</span>
+				</span></a>
+			</form>
+		</div>
+	</main>
+
+	<footer>
+	</footer>
+	<script>
+		const PI = 3.141592653589793;
+		PI = 3.14;
+		// Om te laten zien dat een const niet veranderd kan worden (cannot be reassigned)
+	</script>
+	<script src="scripts.js"></script>
+
+</body>
+
+</html>
