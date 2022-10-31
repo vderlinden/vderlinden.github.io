@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Jobport products</title>
+    <meta name="keywords" content="Jobport, products">
+    <meta name="description" content="Jobport products concept">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script rel="javascript" src="scripts/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <button class="menu-button-mobile icon-button--dark" onclick="" aria-label="Main drawer">
+            <svg height="24" width="24">
+                <path d="M3 18v-2h18v2Zm0-5v-2h18v2Zm0-5V6h18v2Z" />
+            </svg>
+        </button>
+        <a href="#" id="logo">
+            <img src="images/jobport-icon-color-2022.svg" alt="Jobport">
+            <span>Jobport</span>
+        </a>
+        <nav>
+            <a href="#" onclick="handleNavigation('oplossingen')" id="btn-oplossingen" class="menu">Oplossingen</a>
+            <a href="#" onclick="handleNavigation('platform')" id="btn-platform" class="menu">Platform</a>
+            <a href="#" onclick="handleNavigation('nieuws')" id="btn-pricing" class="link">Nieuws</a>
+            <a href="#" onclick="handleNavigation('nieuws')" id="btn-pricing" class="link">Over ons</a>
+        </nav>
+    </header>
+
+    <section id="js-trigger-nav" class="navigation">
+        <div class="navigation-wrapper">
+            <button class="menu-button-close icon-button--dark" onclick="handleNavigation()">
+                <svg height="24" width="24" fill="#000;">
+                    <path
+                        d="M6.4 19 5 17.6l5.6-5.6L5 6.4 6.4 5l5.6 5.6L17.6 5 19 6.4 13.4 12l5.6 5.6-1.4 1.4-5.6-5.6Z" />
+                </svg>
+            </button>
+            <section id="js-trigger-nav-oplossingen">
+                <div class="navigation-cols">
+                    <div class="navigation-main">
+                        <h1>Oplossingen</h1>
+                        <div class="navigation-main-cols">
+                            <div>
+                                <h2>Loopbaan</h2>
+                                <a href="#">Jobport Loopbaan<span>Loopbaan APK</span></a>
+                                <a href="#">Jobport Mobiliteit<span>Andere ondertitel</span></a>
+                            </div>
+                            <div>
+                                <h2>Re-integratie</h2>
+                                <a href="#">Jobport Verzuim<span>Andere ondertitel</span></a>
+                                <a href="#">Jobport Reintegratie<span>Andere ondertitel</span></a>
+                            </div>
+                            <div>
+                                <h2>Particpatie</h2>
+                                <a href="#">Jobport Werk<span>Gemeenten, werkbedrijven</span></a>
+                                <a href="#">Jobport WSP<span>Werkgeversservicepunt</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navigation-links">
+                        <a href="#">Werk & Loopbaan
+                            <img src="images/link.svg" height="16" width="16">
+                        </a>
+                        <a href="#">Werk & Re-integratie
+                            <img src="images/link.svg" height="16" width="16">
+                        </a>
+                        <a href="#">Werk & Particpatie
+                            <img src="images/link.svg" height="16" width="16">
+                        </a>
+                        <a href="#">Werk & Onderwijs
+                            <img src="images/link.svg" height="16" width="16">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id="js-trigger-nav-platform">
+                <div class="navigation-cols">
+                    <div class="navigation-main">
+                        <h1>Platform</h1>
+                        <div class="navigation-main-cols">
+                            <div>
+                                <a href="#">Loopbaanprofiel<span>Ervaring, kwaliteiten, interesses </span></a>
+                                <a href="#">Beroepen verkenner<span>Arbeidsmarkt trends ontdekken</span></a>
+                                <a href="#">Vacature zoekmachine<span>Alle vacatures in Nederland</span></a>
+                                <a href="#">Werkgever verkenner<span>Oriëntatie, netwerken en open sollicitaties</span></a>
+                            </div>
+                            <div>
+                                <a href="#">Video’s met loopbaantips<span>Leer alle in en outs</span></a>
+                                <a href="#">Sollicitatieactiviteiten<span>Sollicitatie activiteiten inzien</span></a>
+                                <a href="#">Loopbaantesten<span>Professionele testen</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navigation-links">
+                        <a href="#">Route naar Werk
+                            <img src="images/link.svg" height="16" width="16">
+                        </a>
+                        <a href="#">Route naar Match
+                            <img src="images/link.svg" height="16" width="16">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <div id="js-trigger-overlay" class="overlay"></div>
+
+    <section id="header__home" class="header">
+        <h1>Slimme coaching en matching software</h1>
+        <h2>Met onze slimme software kunnen mensen hun loopbaan en de arbeidsmarkt verkennen. Jou en je collega's
+            ondersteunen we in het online coachen en of matchen naar werk.</h2>
+    </section>
+
+    <section id="oplossingen">
+        <article>
+            <h1>Werk & Loopbaan</h1>
+            <p>Oplossingen voor werkgevers, dienstverleners en belanghebbenden.</p>
+            <a href="#">iLoopbaan
+                <img src="images/link.svg" height="16" width="16">
+            </a>
+            <a href="#">iMobiliteit
+                <img src="images/link.svg" height="16" width="16">
+            </a>
+        </article>
+        <article>
+            <h1>Werk & Re-integratie </h1>
+            <p>Oplossingen voor werkgevers, dienstverleners en belanghebbenden.</p>
+            <a href="#">iVerzuim
+                <img src="images/link.svg" height="16" width="16">
+            </a>
+            <a href="#">iReintegratie
+                <img src="images/link.svg" height="16" width="16">
+            </a>
+        </article>
+        <article>
+            <h1>Werk & Particpatie</h1>
+            <p>Oplossingen voor gemeenten, werkbedrijven en werkgeverservicepunten.</p>
+            <a href="#">iWerk
+                <img src="images/link.svg" height="16" width="16">
+            </a>
+            <a href="#">iWSP
+                <img src="images/link.svg" height="16" width="16">
+            </a>
+        </article>
+        <article>
+            <h1>Werk & Onderwijs</h1>
+            <p>Oplossingen voor leerwerkloketten, ROC en PRO/VSO onderwijs.</p>
+            <a href="#">iLoopbaan
+                <img src="images/link.svg" height="16" width="16">
+            </a>
+            <a href="#">iMobiliteit
+                <img src="images/link.svg" height="16" width="16">
+            </a>
+        </article>
+    </section>
+    <script>
+        var x = document.getElementById("js-trigger-overlay");
+        x.addEventListener("click", handleNavigation);
+        setNavigation()
+    </script>
+</body>
+
+</html>
